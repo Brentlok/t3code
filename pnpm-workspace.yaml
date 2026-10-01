@@ -96,6 +96,7 @@ minimumReleaseAgeExclude:
   - "@distilled.cloud/stripe@1.0.0-rc.12"
   - "@shadcn/lint@0.1.5"
   - cn@0.3.2
+  - uniwind@1.12.1
 
 overrides:
   # Keep jsdom's optional peer consistent so Vite+ has one test-runner instance.
@@ -206,7 +207,6 @@ patchedDependencies:
   # Preserve the final layout frame. Backport of [#10171](https://github.com/software-mansion/react-native-reanimated/pull/10171).
   react-native-reanimated@4.5.5: patches/react-native-reanimated@4.5.5.patch
   react-native-screens@4.26.2: patches/react-native-screens@4.26.2.patch
-  uniwind@1.11.0: patches/uniwind@1.11.0.patch
 
 peerDependencyRules:
   allowAny:
